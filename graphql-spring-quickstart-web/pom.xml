@@ -11,6 +11,13 @@
 
     <artifactId>graphql-spring-quickstart-web</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.graphql</groupId>
+            <artifactId>graphql-spring-quickstart-core</artifactId>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

@@ -35,17 +35,17 @@
             </dependency>
             <dependency>
                 <groupId>io.graphql</groupId>
-                <artifactId>garphql-spring-quickstart-annotation</artifactId>
+                <artifactId>graphql-spring-quickstart-annotation</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.graphql</groupId>
-                <artifactId>garphql-spring-quickstartg-autoconfig</artifactId>
+                <artifactId>graphql-spring-quickstart-autoconfig</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>io.graphql</groupId>
-                <artifactId>graphql-spring-quickstar-web</artifactId>
+                <artifactId>graphql-spring-quickstart-web</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
@@ -53,10 +53,56 @@
                 <artifactId>graphql-spring-quickstart-starter</artifactId>
                 <version>${revision}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.graphql-java-kickstart</groupId>
+                <artifactId>graphql-spring-boot-starter</artifactId>
+                <version>5.10.0</version>
+            </dependency>
             <dependency>
                 <groupId>com.graphql-java-kickstart</groupId>
                 <artifactId>playground-spring-boot-starter</artifactId>
                 <version>5.10.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.graphql-java-kickstart</groupId>
+                <artifactId>graphql-java-tools</artifactId>
+                <version>5.6.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.graphql-java</groupId>
+                <artifactId>graphql-java</artifactId>
+                <version>16.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.graphql-java</groupId>
+                <artifactId>graphql-java-extended-scalars</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>28.1-jre</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.60</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.4</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>3.2.2</version>
+            </dependency>
+            <dependency>
+                <groupId>io.leangen.geantyref</groupId>
+                <artifactId>geantyref</artifactId>
+                <version>1.3.9</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -111,5 +157,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
